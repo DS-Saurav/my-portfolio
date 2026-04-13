@@ -416,7 +416,11 @@ function TrustBar({ dark }) {
     "🌍 Clients from 8+ Countries","💼 Upwork Rising Talent",
   ];
   return (
-    <div style={{ background: dark ? "#0a0e1a" : "#1B4F8A", height: 36, overflow: "hidden", display: "flex", alignItems: "center" }}>
+    <div style={{
+      position: "fixed", top: 0, left: 0, right: 0, zIndex: 101,
+      background: dark ? "#0a0e1a" : "#1B4F8A",
+      height: 36, overflow: "hidden", display: "flex", alignItems: "center",
+    }}>
       <div style={{ display: "flex", gap: 56, whiteSpace: "nowrap", animation: "trustScroll 28s linear infinite", willChange: "transform" }}>
         {[...items, ...items].map((item, i) => (
           <span key={i} style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.82)", letterSpacing: 0.5, fontWeight: 500 }}>{item}</span>
