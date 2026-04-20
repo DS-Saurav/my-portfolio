@@ -114,8 +114,8 @@ const PROJECTS = [
     tools: ["Python","Pandas","NumPy"],
     before: "18,400 rows · 34% unusable", after: "17,102 rows · 100% analysis-ready",
     result: "Client ran first accurate monthly revenue report in 3 years.",
-    github: "https://github.com/sauravacharya/cafe-sales-cleaning",
-    dataset: "https://github.com/sauravacharya/cafe-sales-cleaning/raw/main/data/cleaned_cafe_sales.csv",
+    github: "https://github.com/DS-Saurav/Cafe-sales",
+    dataset: "https://raw.githubusercontent.com/DS-Saurav/Cafe-sales/refs/heads/main/Sales_cleaned.csv?token=GHSAT0AAAAAAD2IJ4YEC4XA5QAKWW3VTCU22PGH2YQ",
     qualityBefore: 34, qualityAfter: 2,
   },
   {
