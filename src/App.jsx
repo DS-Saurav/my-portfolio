@@ -108,14 +108,14 @@ const PROJECTS = [
   {
     id: 1, tag: "Python · Pandas", color: "#1B4F8A", emoji: "☕",
     title: "Cafe Sales Data Cleaning",
-    problem: "A local cafe chain had 3 years of POS data with rampant inconsistencies — making revenue analysis impossible.",
+    problem: "A retail client's expansion was stalled by a 10,000-row transaction ledger that was 54% unusable due to 'ERROR' flags and fragmented metadata.",
     issues: ["12% missing transaction values","Duplicate order IDs (1,400+ rows)","Mixed date formats (DD/MM vs MM/DD)","Product names with 23 spelling variants"],
     solution: ["Imputed missing values using category-median strategy","Deduplicated on composite key (order_id + timestamp)","Standardized all dates to ISO 8601 via pd.to_datetime","Fuzzy-matched product names using difflib + manual lookup"],
     tools: ["Python","Pandas","NumPy"],
     before: "18,400 rows · 34% unusable", after: "17,102 rows · 100% analysis-ready",
     result: "Client ran first accurate monthly revenue report in 3 years.",
-    github: "https://github.com/DS-Saurav/Cafe-sales",
-    dataset: "https://raw.githubusercontent.com/DS-Saurav/Cafe-sales/refs/heads/main/Sales_cleaned.csv?token=GHSAT0AAAAAAD2IJ4YEC4XA5QAKWW3VTCU22PGH2YQ",
+    github: "https://github.com/sauravacharya/cafe-sales-cleaning",
+    dataset: "https://github.com/sauravacharya/cafe-sales-cleaning/raw/main/data/cleaned_cafe_sales.csv",
     qualityBefore: 34, qualityAfter: 2,
   },
   {
