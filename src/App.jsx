@@ -115,7 +115,7 @@ const PROJECTS = [
     before: "18,400 rows · 34% unusable", after: "17,102 rows · 100% analysis-ready",
     result: "Client ran first accurate monthly revenue report in 3 years.",
     github: "https://github.com/DS-Saurav/my-portfolio",
-    dataset: "https://github.com/sauravacharya/cafe-sales-cleaning/raw/main/data/cleaned_cafe_sales.csv",
+    dataset: "https://github.com/DS-Saurav/Cafe-sales/blob/main/Sales_cleaned.csv",
     qualityBefore: 34, qualityAfter: 2,
   },
   {
