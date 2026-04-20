@@ -114,8 +114,8 @@ const PROJECTS = [
     tools: ["Python","Pandas","NumPy"],
     before: "18,400 rows · 34% unusable", after: "17,102 rows · 100% analysis-ready",
     result: "Client ran first accurate monthly revenue report in 3 years.",
-    github: "https://github.com/sauravacharya/cafe-sales-cleaning",
-    dataset: "https://github.com/sauravacharya/cafe-sales-cleaning/raw/main/data/cleaned_cafe_sales.csv",
+    github: "https://github.com/DS-Saurav/Cafe-sales",
+    dataset: "https://raw.githubusercontent.com/DS-Saurav/Cafe-sales/refs/heads/main/Sales_cleaned.csv?token=GHSAT0AAAAAAD2IJ4YEC4XA5QAKWW3VTCU22PGH2YQ",
     qualityBefore: 34, qualityAfter: 2,
   },
   {
@@ -1594,10 +1594,10 @@ export default function Portfolio() {
           <p style={{ fontFamily: "'DM Mono', monospace", fontSize: 12, color: "#C05621", fontWeight: 600, marginBottom: 44 }}>⚠ Currently accepting a limited number of new clients.</p>
           <div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 32 }}>
             {[
-              { icon: "📧", label: "Email",  val: "saurav.acharya.data@gmail.com", href: "mailto:saurav.acharya.data@gmail.com" },
-              { icon: "💼", label: "Fiverr", val: "fiverr.com/sauravacharya",       href: "https://www.fiverr.com/sauravacharya" },
-              { icon: "🌐", label: "Upwork", val: "upwork.com/sauravacharya",       href: "https://www.upwork.com/freelancers/sauravacharya" },
-              { icon: "🐙", label: "GitHub", val: "github.com/sauravacharya",       href: "https://github.com/sauravacharya" },
+              { icon: "📧", label: "Email",  val: "saurey11@gmail.com", href: "mailto:saurey11@gmail.com" },
+              { icon: "💼", label: "Fiverr", val: "fiverr.com/sauravachary585",       href: "https://www.fiverr.com/sauravachary585" },
+              { icon: "🌐", label: "Upwork", val: "upwork.com/sauravacharya",       href: "https://www.upwork.com/freelancers/~013221699648ab7a0a" },
+              { icon: "🐙", label: "GitHub", val: "github.com/DS-Saurav",       href: "https://github.com/DS-Saurav" },
             ].map(c => (
               <a key={c.label} href={c.href} target="_blank" rel="noopener noreferrer" aria-label={`${c.label}: ${c.val}`}
                 style={{ display: "flex", alignItems: "center", gap: 14, background: dark ? "#161b22" : "#fff", border: `1px solid ${border}`, borderRadius: 12, padding: "16px 20px", textDecoration: "none", transition: "border-color 0.2s, transform 0.2s, box-shadow 0.2s" }}
